@@ -5,5 +5,5 @@
 - Use `python main.py` to run the application
 
 ## Screenshots
-- ![plot](./images/s1.png)
-- ![plot](./images/s2.png)
+- ![plot](./images/screenshot1.png)
+- ![plot](./images/screenshot2.png)
