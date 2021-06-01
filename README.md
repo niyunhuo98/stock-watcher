@@ -3,3 +3,6 @@
 ## Description
 - This is a simple stock watcher application built using Python
 - Use `python main.py` to run the application
+
+## Screenshots
+- ![plot](./images/s1.png)
