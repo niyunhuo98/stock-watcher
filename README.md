@@ -6,3 +6,4 @@
 
 ## Screenshots
 - ![plot](./images/s1.png)
+- ![plot](./images/s2.png)
