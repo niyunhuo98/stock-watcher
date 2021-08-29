@@ -71,7 +71,7 @@ class MainApp(tk.Tk):
     
 
     def get_price(self, name):
-        self.res = requests.get('https://finance.yahoo.com/quote/'+name)
+        self.res = requests.get('https://finance.yahoo.com/quote/'+name, headers={'User-agent': 'Mozilla/5.0'})
         self.res.raise_for_status()
         self.soup = bs4.BeautifulSoup(self.res.text, 'html.parser')
         self.price = self.soup.find_all('div', {'class': 'My(6px) Pos(r) smartphone_Mt(6px)'})[0].find('span').text
